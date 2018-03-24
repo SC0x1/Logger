@@ -80,9 +80,7 @@ int main(int argc, char* argv[])
 
 #ifndef LOG_MULTITHREADING
 
-	int _l[] = { 4, 8, 15, 16, 23, 42 };
-
-	LOG_INFO << "\n\tMessage: "<<_l[0]<<_l[1]<<_l[2]<<_l[3]<<_l[4]<<_l[5]<<" end.\n";
+	LOG_INFO << "\n\tMessage: "<<10<<2<<3<<1<<" end.\n";
 
 	// messages are output in the log file
 	LOG_USE_FILE;
